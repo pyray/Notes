@@ -1,31 +1,31 @@
-# ½¨Á¢AnacondaµÄ¶àPython»·¾³
+ï»¿# å»ºç«‹Anacondaçš„å¤šPythonçŽ¯å¢ƒ
 
-## 1. ¼ì²écondaÏÂµÄPython»·¾³
+## 1. æ£€æŸ¥condaä¸‹çš„PythonçŽ¯å¢ƒ
 
-°²×°anaconda²¢ÉèÖÃÁËÂ·¾¶±äÁ¿ºó£¬ÔÚ¿ØÖÆÌ¨ÊäÈëÒÔÏÂÃüÁîÒÔ¼ì²éÏÖÓÐµÄ»·¾³£º
+å®‰è£…anacondaå¹¶è®¾ç½®äº†è·¯å¾„å˜é‡åŽï¼Œåœ¨æŽ§åˆ¶å°è¾“å…¥ä»¥ä¸‹å‘½ä»¤ä»¥æ£€æŸ¥çŽ°æœ‰çš„çŽ¯å¢ƒï¼š
 
     conda info -e
     
-´ËÊ±Ó¦¸Ã¿´µ½±¾»úcondaÏÂÓÐÄÄÐ©Python»·¾³¡£Èç¹û½ö°²×°AnacondaµÄÄ³Ò»¸ö°æ±¾£¬Ôò¿ÉÄÜÖ»ÓÐÒ»¸ö¡®root¡¯
+æ­¤æ—¶åº”è¯¥çœ‹åˆ°æœ¬æœºcondaä¸‹æœ‰å“ªäº›PythonçŽ¯å¢ƒã€‚å¦‚æžœä»…å®‰è£…Anacondaçš„æŸä¸€ä¸ªç‰ˆæœ¬ï¼Œåˆ™å¯èƒ½åªæœ‰ä¸€ä¸ªâ€˜rootâ€™
 
-## 2. ÔÚcondaÏÂÐÂÔöÒ»¸öPython»·¾³
+## 2. åœ¨condaä¸‹æ–°å¢žä¸€ä¸ªPythonçŽ¯å¢ƒ
 
-    conda create --name mypy3 python=3  #´´½¨Ò»¸öÃû³ÆÎªmypy3£¬Ê¹ÓÃPython3.x°æ±¾µÄ»·¾³¡£conda»áËÑË÷£¬²¢ÏÂÔØ°²×°×îÐÂµÄPython3.x°æ
+    conda create --name mypy3 python=3  #åˆ›å»ºä¸€ä¸ªåç§°ä¸ºmypy3ï¼Œä½¿ç”¨Python3.xç‰ˆæœ¬çš„çŽ¯å¢ƒã€‚condaä¼šæœç´¢ï¼Œå¹¶ä¸‹è½½å®‰è£…æœ€æ–°çš„Python3.xç‰ˆ
 
-## 3. ¼ì²âPython»·¾³
+## 3. æ£€æµ‹PythonçŽ¯å¢ƒ
 
-    activate mypy3                      #ÔÚwindowsÏµÍ³ÖÐ¼¤»î½øÈëmypy3»·¾³£¬Èç¹ûÊÇUbuntuÏµÍ³£¬ÔòÎª source activate mypy3
-    python -V                           #¼ì²é¸Ã»·¾³ÏÂPythonµÄ°æ±¾¡£Ó¦¸ÃÊÇÐèÒªµÄ3.x°æ¡£´ËÊ±ÔÚÃüÁî·ûÄ£Ê½ÏÂÊäÈëpython¼´Æô¶¯ÏàÓ¦°æ±¾µÄpython±à¼­Æ÷
-    deactivate mypy3                    #ÍË³ömypy3»·¾³¡£´ËÊ±»Øµ½Ä¬ÈÏµÄPython°æ±¾£¨Èç¹ûÓÐ£©
+    activate mypy3                      #åœ¨windowsç³»ç»Ÿä¸­æ¿€æ´»è¿›å…¥mypy3çŽ¯å¢ƒï¼Œå¦‚æžœæ˜¯Ubuntuç³»ç»Ÿï¼Œåˆ™ä¸º source activate mypy3
+    python -V                           #æ£€æŸ¥è¯¥çŽ¯å¢ƒä¸‹Pythonçš„ç‰ˆæœ¬ã€‚åº”è¯¥æ˜¯éœ€è¦çš„3.xç‰ˆã€‚æ­¤æ—¶åœ¨å‘½ä»¤ç¬¦æ¨¡å¼ä¸‹è¾“å…¥pythonå³å¯åŠ¨ç›¸åº”ç‰ˆæœ¬çš„pythonç¼–è¾‘å™¨
+    deactivate mypy3                    #é€€å‡ºmypy3çŽ¯å¢ƒã€‚æ­¤æ—¶å›žåˆ°é»˜è®¤çš„Pythonç‰ˆæœ¬ï¼ˆå¦‚æžœæœ‰ï¼‰
     
-## 4. ÔÚJupyter notebookÖÐÔö¼Ó¸Ã»·¾³±äÁ¿Ñ¡Ïî
+## 4. åœ¨Jupyter notebookä¸­å¢žåŠ è¯¥çŽ¯å¢ƒå˜é‡é€‰é¡¹
     
     activate mypy3
-    conda install ipykernel             #ÔÚÏàÓ¦»·¾³ÖÐ°²×°ipykernel£¬ÓÉÓÚ¸÷»·¾³ÊÇ¶ÀÁ¢µÄ£¬¹ÊÃ¿Ò»¸ö»·¾³¶¼Òª·Ö±ð°²×°
-    python -m ipykernel install --user  #ÔÚjupyter notebook ÖÐÔö¼Ó¸Ã»·¾³Ñ¡Ïî¡£Èç¹ûÔÚUbuntuÏÂ£¬¿ÉÐ´³Émypy3 -m ipykernel install --user
-    deactivate mypy3                    #ÍË³ömypy3»·¾³¡£Í¬Ñù£¬ÔÚUbuntuÏÂ£¬ÐèÒªÔÚÇ°ÃæÔö¼Ósource
+    conda install ipykernel             #åœ¨ç›¸åº”çŽ¯å¢ƒä¸­å®‰è£…ipykernelï¼Œç”±äºŽå„çŽ¯å¢ƒæ˜¯ç‹¬ç«‹çš„ï¼Œæ•…æ¯ä¸€ä¸ªçŽ¯å¢ƒéƒ½è¦åˆ†åˆ«å®‰è£…
+    python -m ipykernel install --user  #åœ¨jupyter notebook ä¸­å¢žåŠ è¯¥çŽ¯å¢ƒé€‰é¡¹ã€‚å¦‚æžœåœ¨Ubuntuä¸‹ï¼Œå¯å†™æˆmypy3 -m ipykernel install --user
+    deactivate mypy3                    #é€€å‡ºmypy3çŽ¯å¢ƒã€‚åŒæ ·ï¼Œåœ¨Ubuntuä¸‹ï¼Œéœ€è¦åœ¨å‰é¢å¢žåŠ source
     
-ÖØ¸´ÉÏÊö²½Öè£¬¼´¿ÉÔö¼Ó¸ü¶àµÄ²»Í¬°æ±¾µÄPython»·¾³¡£
+é‡å¤ä¸Šè¿°æ­¥éª¤ï¼Œå³å¯å¢žåŠ æ›´å¤šçš„ä¸åŒç‰ˆæœ¬çš„PythonçŽ¯å¢ƒã€‚
 
-È»ºó¿ÉÒÔÔÚJupyter notebookÖÐÑ¡ÔñÐÂ½¨²»Í¬°æ±¾PythonµÄnotebookÎÄ¼þ£»Ò²¿ÉÒÔÔÚÔËÐÐÊÇ½øÐÐºËÐÄÇÐ»»¡£
+ç„¶åŽå¯ä»¥åœ¨Jupyter notebookä¸­é€‰æ‹©æ–°å»ºä¸åŒç‰ˆæœ¬Pythonçš„notebookæ–‡ä»¶ï¼›ä¹Ÿå¯ä»¥åœ¨è¿è¡Œæ˜¯è¿›è¡Œæ ¸å¿ƒåˆ‡æ¢ã€‚
     
