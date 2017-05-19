@@ -4,9 +4,9 @@
 
     jupyter notebook --generate-config
 
-    如：
+如：
     
-    -----
+    
     C:\Users\Administrator>jupyter notebook --generate-config
 
     # 得到配置文件的地址为： 
