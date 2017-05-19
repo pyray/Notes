@@ -4,10 +4,14 @@
 
     jupyter notebook --generate-config
 
+    如：
+    
     -----
     C:\Users\Administrator>jupyter notebook --generate-config
 
-    # 得到配置文件的地址为： C:\Users\Administrator\.jupyter\jupyter_notebook_config.py with default config? [y/N]n    # 选择不替换为默认配置
+    # 得到配置文件的地址为： 
+    
+    C:\Users\Administrator\.jupyter\jupyter_notebook_config.py with default config? [y/N]n    # 选择不替换为默认配置
 
 ## 2. 用编辑器打开配置文件，修改默认路径
 
