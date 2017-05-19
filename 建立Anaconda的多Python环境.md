@@ -25,7 +25,7 @@
     python -m ipykernel install --user  #在jupyter notebook 中增加该环境选项。如果在Ubuntu下，可写成mypy3 -m ipykernel install --user
     deactivate mypy3                    #退出mypy3环境。同样，在Ubuntu下，需要在前面增加source
     
-重复上述步骤，即可增加不同版本的Python环境。
+重复上述步骤，即可增加更多的不同版本的Python环境。
 
 然后可以在Jupyter notebook中选择新建不同版本Python的notebook文件；也可以在运行是进行核心切换。
     
