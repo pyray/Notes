@@ -9,7 +9,7 @@
     
     C:\Users\Administrator>jupyter notebook --generate-config
 
-    # 得到配置文件的地址为： 
+例如得到配置文件的地址为： 
     
     C:\Users\Administrator\.jupyter\jupyter_notebook_config.py with default config? [y/N]n    # 选择不替换为默认配置
 
