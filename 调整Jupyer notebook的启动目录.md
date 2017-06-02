@@ -15,7 +15,7 @@
 
 ## 2. 用编辑器打开配置文件，修改默认路径
 
-在配置文件中搜索“_dir”，定位到配置文件的键值 “c.NotebookApp.notebook_dir”，取消前面的注释，将其值更改为所需要的路径。如“u'F:\\10-InforTech'”。
+在配置文件中搜索“_dir”，定位到配置文件的键值 “c.NotebookApp.notebook_dir”，取消前面的注释，将其值更改为所需要的路径。如“u'F:\\\10-InforTech'”。
 
 BTW: 也可以在命令行启动jupyter notebook是增加参数，直接指定启动目录。但仅在本次启动中有效（可用jup4yter notebook -h查询帮助）,如：
 
